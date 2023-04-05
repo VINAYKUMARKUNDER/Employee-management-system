@@ -15,7 +15,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
 
 
 @OpenAPIDefinition(
-		info = @Info(title = "Insurance-Management-System with Vinay", version = "1.1"), 
+		info = @Info(title = "Local Shop India Assignment with Vinay", version = "1.1"), 
 security = {
 		@SecurityRequirement(name = "basicAuth"),
 		@SecurityRequirement(name = "bearerToken") 
