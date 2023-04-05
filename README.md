@@ -1,8 +1,37 @@
 # Employee Management Project
 The Employee Management Project is a web application built with Java Spring Boot and MySQL that allows users to manage employee records. The application provides a REST API that exposes endpoints for adding, updating, retrieving, and deleting employee records. It also includes a Swagger UI that allows users to interact with the API and test its functionality.
 
+## Features
+ The API supports the following features:
+
+- Creating and managing Employee
+- Updating particular Employee by id
+- Deleting particular Employee by id
+- Retrieving particular Employee by id
+- Retrieving particular Employee by email
+- Retrieving a list of all Employee
+- Documentation all api using swaagger-ui
+
+
+
+## Technologies Used
+The project is built using the following technologies:
+
+- Java 17
+- Spring Boot 3.0.5
+- Hibernate for ORM mapping
+- MySQL for the database
+- Swagger for API documentation
+
+
 ## Getting Started
-To get started with the Employee Management Project, follow these steps:
+To get started with the project, you will need to have the following tools installed on your machine:
+
+- JDK 11 or later
+- Maven
+- MySQL
+
+### To get started with the Employee Management Project, follow these steps:
 
 1. Clone the repository to your local machine: git clone https://github.com/VINAYKUMARKUNDER/employee-management.git
 2. Install the necessary dependencies: **mvn install**
